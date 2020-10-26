@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  flex-direction: column;
+}
+
+input[type=text],
+button {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+}
