@@ -59,7 +59,6 @@ function App() {
   useEffect(() => {
     const newTimezone = getTimezone(city);
     if(newTimezone) return setTimezones([...newTimezone, ...timezones])
-    return console.log("doesnt exist")
   }, [city] );
 
   return (

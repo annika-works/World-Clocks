@@ -4,7 +4,7 @@ const Header = ({ onChange, onSubmit }) => (
   <header>
     <h1>World Clocks</h1>
     <form>
-      <input type="text" placeholder="City" onChange={e => onChange(e)} />
+      <input type="text" placeholder="City" className="input" onChange={e => onChange(e)} />
       <button type="submit" onClick={e => onSubmit(e)}>Add Clock</button>
     </form>
   </header>
