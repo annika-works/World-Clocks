@@ -45,12 +45,9 @@ function App() {
     },
   ]
 
-  
   const [city, setCity] = useState('');
   const [searchVal, setSearchVal] = useState('');
   const [timezones, setTimezones] = useState(defaultTimezones);
-  
-  
   
   const onChange = e => setSearchVal(e.currentTarget.value);
   
@@ -62,6 +59,7 @@ function App() {
   useEffect(() => {
     const newTimezone = getTimezone(city);
     if(newTimezone) return setTimezones([...newTimezone, ...timezones])
+    return console.log("doesnt exist")
   }, [city] );
 
   return (
