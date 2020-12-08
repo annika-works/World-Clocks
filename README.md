@@ -12,10 +12,8 @@ World Clocks lets a user add and delete clocks to a splash page based on a city 
 
 ## Contributors
 
-[Alan Hajo](https://github.com/AlanoxSwe)
-
-[Annika Hallerberg](https://github.com/annika-works)
-
+[Alan Hajo](https://github.com/AlanoxSwe)<br/>
+[Annika Hallerberg](https://github.com/annika-works)<br/>
 [Jonmar Tamon](https://github.com/mar-veloper)
 
 This project was part of the 3 month bootcamp by the [School of Applied Technology Stockholm](www.salt.study)
