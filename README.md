@@ -2,6 +2,8 @@
 
 This project is a straight dive into React, and part of an extensive three month Full-Stack Javascript Development Course at the School of Applied Technology Stockholm.
 
+World Clocks lets a user add and delete clocks to a splash page based on a city name, that display the current time in that city.
+
 ## Stack
 
 - React
